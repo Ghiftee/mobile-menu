@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="icon" href="./favicon.ico" />
     <title>Aziz Mejri - Portfolio</title>
+    <script type="text/javaScript" src="js/main.js"></script>
   </head>
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
+      <button type="button" class="menu-bars" onclick="showNav()">
         <i class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
@@ -23,6 +24,15 @@
               >Contact <i class="far fa-envelope"></i
             ></a>
           </li>
+        </ul>
+      </nav>
+      <nav id="mobile-nav">
+        <i class="fas fa-times" id="close-btn"></i>
+        <ul>
+          <li><a class="nav-link" href="#projects">Hello</a></li>
+          <li><a class="nav-link" href="#projects">Portoflio</a></li>
+          <li><a class="nav-link" href="#about-me">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
