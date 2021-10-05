@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const showNav = () => {
   document.getElementById('mobile-nav').style.display = 'flex';
 };
