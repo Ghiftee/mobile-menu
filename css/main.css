@@ -33,7 +33,7 @@ header {
 }
 
 #mobile-nav {
-  background-color: black;
+  color: black;
   display: none;
   position: absolute;
   top: 0;
@@ -41,26 +41,22 @@ header {
   height: 100vh;
   width: 100vw;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
   z-index: 2;
-  padding: 30px;
+  padding-bottom: 40vh;
+  padding-top: 30px;
 }
 
 #close-btn {
   align-self: flex-end;
-  font-size: 30px;
-}
-
-#mobile-nav ul {
-  width: 100%;
+  font-size: 40px;
+  margin-right: 20px;
 }
 
 #mobile-nav ul li a {
-  color: white;
-  padding: 10px;
-  font-size: 30px;
-  border-bottom: 1px solid white;
-  display: block;
-  text-align: left;
+  color: black;
 }
 
 #logo {
@@ -591,4 +587,29 @@ textarea {
     width: 3vw;
     height: 32px;
   }
+}
+
+#shape-1 {
+  position: absolute;
+  bottom: 30px;
+  left: -40px;
+  transform: rotate(30deg);
+  height: 200px;
+  width: 200px;
+}
+
+#shape-2 {
+  position: absolute;
+  bottom: -5px;
+  left: 180px;
+  height: 200px;
+  width: 200px;
+}
+
+#shape-3 {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  height: 200px;
+  width: 200px;
 }
